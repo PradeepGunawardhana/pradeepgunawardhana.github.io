@@ -20,7 +20,7 @@ function Home() {
 
       <div className="home-hero container  text-center">
         <div className="row justify-content-center align-items-center">
-          <div className="col-sm-8 col-8 " data-aos="fade-up"  data-aos-duration="1500">
+          <div className="col-12 " data-aos="fade-up"  data-aos-duration="1500">
 
             <h2 className='hero-title'>Pradeep Gunawardhana</h2>
 
