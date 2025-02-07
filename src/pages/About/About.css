@@ -1,0 +1,120 @@
+.page-title h3 {
+    font-family: "Raleway", serif !important;
+    font-weight: 700;
+    position: relative;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.page-title h3::after {
+    content: ""; 
+    position: absolute;
+    left: 0; 
+    right: 0;
+    bottom: 0;  
+    width: 50px;  
+    height: 3px;
+    background: #34b7a7;  
+    display: block;
+    margin: auto;
+  
+}
+
+.profile-pic{
+    width: 380px;
+    height: auto;
+    border-radius: 15px;
+}
+
+.aboutme-para{
+    text-align: justify;
+}
+
+
+
+
+
+
+.skill-list{
+    font-family: "Raleway", serif !important;
+    font-size: 13px;
+    font-style: normal;
+}
+
+.skill{
+   
+    margin-bottom: 25px;
+    font-weight: 600
+}
+
+
+.skill-name{
+
+    font-size: 14px;
+
+}
+
+
+.skill .skill-name .val{
+
+    float: right !important;
+
+}
+
+.progress{
+    height: 9px !important;
+    margin-top: 13px !important;
+}
+.progress-bar{
+    background-color:#34B7A7 !important ;
+}
+
+.correct-mark{
+    color:#34B7A7 !important ;
+    font-size: 22px;
+    padding-right: 5px;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 991.98px){
+
+
+            .profile-pic{
+                max-width: 300px;
+            }
+            .profile-pic-container{
+                display: flex;
+                justify-content: center;
+                margin-bottom: 20px;
+            }
+            .profile-wrapper{
+                text-align: center;
+            }
+            .profile-wrapper p{
+                text-align: justify !important;
+            }
+
+}
+
+@media (max-width: 767.98px){
+    
+}
+
+@media (max-width: 575.98px){
+    
+}

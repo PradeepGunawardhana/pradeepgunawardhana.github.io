@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+nav{
+    /* box-shadow: 0px 1px 36px -25px rgba(0,0,0,0.75); */
+    box-shadow: 0px 0 18px rgba(0, 0, 0, 0.1) !important;
+    background-color: #E9E8E6;
+    font-family: "Poppins", serif !important;
+    font-size: 15px;
+    padding: 15px 0;
+    font-weight: 500;
+    z-index: 997;
+    position: sticky !important;
+    top: 0 !important;
+
+}
+
+.cstm-brandName{
+   
+    font-size: 32px !important;
+    letter-spacing: 1px;
+    font-family: "Raleway", serif !important;
+    font-weight: 300;
+    line-height: 38px !important;
+    color: #222222 !important; 
+}
+
+
+
+.nav-link {
+    position: relative;
+    text-decoration: none
+}
+.nav-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    width: 0;
+    height: 2.1px;
+    background-color: #8BCEC5;
+    transition: width 0.3s ease-in-out;
+  }
+
+  .nav-link:hover::after,
+  .nav-link.active::after,
+  .nav-link:hover {
+    width: 68% !important;
+    color: #8BCEC5 !important;
+  }
+
+  .active {
+    width: 68% !important;
+    color: #61afa5 !important;
+  }
+
+  /* #8BCEC5 */
+
+
+.social-links a  {
+    color: color-mix(in srgb, #444444, transparent 40% ) !important; 
+    padding-left: 10px;
+    transition:  0.3s ease-in-out;
+    
+  }
+
+  .social-links a:hover{
+    color: #34B7A7 !important;
+
+  }
+  .social-links i{
+    font-size: 18px !important;
+  } 
+
+
+
+
+  @media (max-width: 991.98px){
+
+
+    .social-links a  {
+  
+      padding-left: 0px;
+      padding-right: 10px;
+
+
+      
+    }
+    .social-links   {
+  
+      margin-top: 10px;
+
+
+      
+    }
+
+    .cstm-brandName{
+      font-size: 26px !important;
+
+
+  }
+  	
+  }
+
+  @media (max-width: 767px){
+  	
+
+  }
+  @media (max-width: 575.98px){
+    .cstm-brandName{
+      font-size: 20px !important;
+
+    }
+
+    .nav-link{
+      font-size: 16px;
+    }
+  	
+  }
