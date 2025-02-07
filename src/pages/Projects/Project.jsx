@@ -8,7 +8,7 @@ function Project() {
         <section className='project-section '>
 
 
-            <div className="container text-center py-5 page-title">
+            <div className="container text-center py-sm-5 p-3  page-title">
                 <h3>My Projects</h3>
                 <p></p>
             </div>
@@ -19,7 +19,7 @@ function Project() {
 
                 <div className="row" data-aos="fade-up" data-aos-duration="1500" >
 
-                    <div className="col-lg-4 project-card-wrapper mb-sm-5 mb-xs-4">
+                    <div className="col-lg-4 project-card-wrapper mb-sm-5 mb-4">
 
                         <div className="project-card p-4  ">
 
@@ -42,9 +42,9 @@ function Project() {
                     </div>
 
 
-                    <div className="col-lg-4 project-card-wrapper mb-sm-5 mb-xs-4">
+                    <div className="col-lg-4 project-card-wrapper mb-sm-5 mb-4">
 
-                        <div className="project-card p-3">
+                        <div className="project-card p-4">
 
                             <h5>Movie Collection Website</h5>
                             <p>I developed a Movie Database app using React.js, integrating the TMDb API to display detailed movie information. I implemented search, filtering, and movie detail features to ensure a seamless and intuitive user experience</p>
@@ -64,9 +64,9 @@ function Project() {
                         </div>
                     </div>
 
-                    <div className="col-lg-4 project-card-wrapper mb-sm-5 mb-xs-4">
+                    <div className="col-lg-4 project-card-wrapper mb-sm-5 mb-4">
 
-                        <div className="project-card p-3">
+                        <div className="project-card p-4">
 
                             <h5>Weather Application</h5>
                             <p>I developed a Weather web application using React.js, integrating the OpenWeather API to fetch and display real-time weather data. The application features location search and detailed weather information, designed to provide an intuitive and seamless user experience</p>
@@ -90,9 +90,9 @@ function Project() {
                 </div>
 
 
-                <div className="row mt-md-5 mb-md-5" data-aos="fade-up" data-aos-duration="1500">
+                <div className="row mt-md-1 mb-md-5 mt-1 mb-5" data-aos="fade-up" data-aos-duration="1500">
 
-                    <div className="col-lg-4  project-card-wrapper mb-sm-5 mb-xs-4">
+                    <div className="col-lg-4  project-card-wrapper mb-sm-5 mb-4">
 
                         <div className="project-card p-3">
 
@@ -115,7 +115,7 @@ function Project() {
                         </div>
                     </div>
                     
-                    <div className="col-lg-4 project-card-wrapper mb-sm-5 mb-xs-4">
+                    <div className="col-lg-4 project-card-wrapper mb-sm-5 mb-1">
 
                         <div className="project-card p-3">
 
@@ -138,25 +138,7 @@ function Project() {
                         </div>
                     </div>
 
-                    {/* <div className="col-lg-4 project-card-wrapper mb-sm-5 mb-xs-4 ">
-
-                        <div className="project-card p-3 ">
-
-                            <h5>Project Name</h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel numquam ducimus nostrum repudiandae dignissimos nam animi quisquam eum odit, molestias, eligendi aliquam? Iure, necessitatibus rem! Reprehenderit sunt natus animi labore.</p>
-
-                            <div className="lan-section">
-                                <p>Languages :
-                                    <span> c# </span>
-                                    <span> java </span>
-                                    <span> html </span>
-                                </p>
-                            </div>
-
-                            <button type="button" className="btn btn-outline-dark">
-                                <i className="bi bi-github "></i> Repo</button>
-                        </div>
-                    </div> */}
+                
 
 
                 </div>

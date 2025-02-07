@@ -4,7 +4,7 @@ import './Contact.css'
 function Contact() {
     return (
         <section className='contact section container'>
-            <div className=" text-center py-5 page-title">
+            <div className=" text-center py-md-5 py-3 page-title">
                 <h3>Contact Me</h3>
             </div>
 

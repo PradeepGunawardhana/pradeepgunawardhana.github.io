@@ -8,9 +8,9 @@ function About() {
     <>
 
 
-      <div className="container text-center py-5 page-title">
+      <div className="container text-center py-md-5 py-3 page-title">
         <h3>About Me</h3>
-        {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, maiores.</p> */}
+        
       </div>
 
       <div className="container">
@@ -203,12 +203,12 @@ function About() {
       <div className="skill-section-container">
         <div className="container text-center py-5 page-title">
           <h3>Soft Skills</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, maiores.</p>
+          <p></p>
         </div>
 
-        <div className="container d-flex justify-content-center">
+        <div className="container d-flex justify-content-center ">
 
-          <div className="row justify-content-center w-100">
+          <div className="row justify-content-center w-100" data-aos="fade-up" data-aos-duration="1500">
 
             <div className="col-md-4 col-sm-5 col-6  skill-list d-flex flex-column justify-content-center align-items-center">
               <div>

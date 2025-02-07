@@ -49,6 +49,22 @@ footer .social-links i{
     footer .social-links a{
         padding-right:0;
     }
+    
+}
 
+
+
+@media (max-width: 575.98px){
+
+    .footer{
+        font-size: 12px;
+        padding: 20px 0;
+    }
+
+    footer .social-links a{
+        width: 32px;
+        height: 32px;    
+        font-size: 10px;
+    }
 
 }

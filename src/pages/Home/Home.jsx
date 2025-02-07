@@ -12,15 +12,15 @@ function Home() {
   return (
 
 
-    <section className='home-section'>
+    <section className='home-section  '>
       <div className="hero-overlay"></div>  {/* Add this overlay div */}
 
       <video autoPlay loop muted playsInline  src={vidHero} type="video/mp4" className='hero-img'></video>
 
 
       <div className="home-hero container  text-center">
-        <div className="row justify-content-center">
-          <div className="col-lg-8 " data-aos="fade-up"  data-aos-duration="1500">
+        <div className="row justify-content-center align-items-center">
+          <div className="col-sm-8 col-8 " data-aos="fade-up"  data-aos-duration="1500">
 
             <h2 className='hero-title'>Pradeep Gunawardhana</h2>
 

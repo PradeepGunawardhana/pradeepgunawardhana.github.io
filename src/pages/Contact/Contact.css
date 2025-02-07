@@ -47,3 +47,34 @@
     margin: 0 !important;
 }
 
+@media (max-width: 575.98px){
+
+    .icon-container{
+ 
+        height: 35px;
+        width: 35px;
+
+
+    }
+    
+
+    .icon-container i{
+        font-size: 1rem;
+       
+   
+    }
+
+
+    .details h5{
+        font-size: 18px !important;
+
+    }
+
+    .details p{
+       
+        font-size: 14px !important;
+
+    }
+    
+    
+}
