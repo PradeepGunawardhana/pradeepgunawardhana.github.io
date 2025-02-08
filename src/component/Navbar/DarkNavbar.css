@@ -1,0 +1,38 @@
+.dark-mode nav{
+
+    background-color: #000000 !important;
+    box-shadow: 10px 0 30px #0adfc2b4 !important;
+
+
+}
+
+
+
+.dark-mode .cstm-brandName{
+    color: #fff !important; 
+}
+
+
+
+
+.dark-mode  .nav-link {
+    color: #fff !important; 
+}
+.dark-mode .active {
+    width: 68% !important;
+    color: #61afa5 !important;
+}
+.dark-mode .nav-link:hover {
+    width: 68% !important;
+    color: #0adfc3 !important;
+  }
+
+.dark-mode .social-links a  {
+    color: color-mix(in srgb, #0adfc2b4, transparent 0% ) !important; 
+}
+
+.dark-mode .social-links a:hover{
+    color: #0adfc3 !important;
+
+  }
+

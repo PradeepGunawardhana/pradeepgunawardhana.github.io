@@ -2,10 +2,13 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
 import "./About.css"
+import "./DarkAbout.css"
 import imgProfile from "../../assets/profile-img.png"
+
 function About() {
   return (
-    <>
+
+    <section >
 
 
       <div className="container text-center py-md-5 py-3 page-title">
@@ -303,7 +306,7 @@ function About() {
 
       </div>
 
-    </>
+    </section>
   )
 }
 

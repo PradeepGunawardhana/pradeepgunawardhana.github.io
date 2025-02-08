@@ -5,6 +5,7 @@ import imgHero from '../../assets/hero-bg.jpg';
 import vidHero from '../../assets/hero-video.mp4';
 
 import "./Home.css";
+import "./DarkHome.css";
 import {  NavLink } from "react-router-dom";
 
 
@@ -13,7 +14,7 @@ function Home() {
 
 
     <section className='home-section  '>
-      <div className="hero-overlay"></div>  {/* Add this overlay div */}
+      <div className="hero-overlay"></div> 
 
       <video autoPlay loop muted playsInline  src={vidHero} type="video/mp4" className='hero-img'></video>
 
@@ -25,7 +26,7 @@ function Home() {
             <h2 className='hero-title'>Pradeep Gunawardhana</h2>
 
             <p className='hero-sub-title'>I'm Undergraduate Software Engineer </p>
-            {/* <a href="" className='btn-get-started'> About Me </a> */}
+      
             <NavLink to="/about" className="btn-get-started">About Me</NavLink>
 
           </div>

@@ -1,0 +1,16 @@
+.Dark-footer{
+
+    color: #c9c9c9 !important;
+    background-color: #000000;
+}
+
+.Dark-footer .social-links a  {
+    color: #ffffff!important; 
+   border-color: #ffffff!important; 
+}
+
+.Dark-footer .social-links a:hover{
+    
+    border-color: #0adfc3 !important;
+    color: #0adfc3 !important;
+}

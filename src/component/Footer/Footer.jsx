@@ -1,9 +1,15 @@
+/* eslint-disable react/prop-types */
 /* eslint-disable no-unused-vars */
-import React from 'react'
+import React, { useState } from 'react'
 import "./Footer.css"
-function Footer() {
+import "./DarkFooter.css"
+
+function Footer( {isdark} ) {
+
+
+
     return (
-        <footer className=' footer light-background'>
+        <footer className=  {isdark? "footer light-background Dark-footer   " : ' footer light-background'} >
             <div className="container">
                 <div className="copyright text-center ">
                     <p>© <span>Copyright</span> <strong className="px-1 sitename">Pradeep</strong> <span>All Rights Reserved<br /></span></p>

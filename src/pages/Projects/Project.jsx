@@ -1,12 +1,14 @@
+/* eslint-disable react/prop-types */
 /* eslint-disable no-unused-vars */
 import React from 'react'
 import './Project.css'
+import './DarkProject.css'
 
 function Project() {
     return (
 
-        <section className='project-section '>
 
+        <section >
 
             <div className="container text-center py-sm-5 p-3  page-title">
                 <h3>My Projects</h3>
@@ -24,7 +26,7 @@ function Project() {
                         <div className="project-card p-4  ">
 
                             <h5>Rotaract Club Website for Saegis Campus</h5>
-                            <p>I developed a MERN stack website for the Rotaract Club of Saegis Campus, which includes an Admin Dashboard, project management features, and user-friendly interfaces. I ensured scalability and implemented a responsive design using React and Styled-Components to deliver an optimal user experience.</p>
+                            <p>I developed a MERN stack website for the Rotaract Club of Saegis Campus, which includes an Admin Dashboard, project management features. I ensured scalability and implemented a responsive design using React and Styled-Components to deliver an optimal user experience.</p>
 
                             <div className="lan-section">
                                 <p>Languages :

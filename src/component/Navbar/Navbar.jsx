@@ -1,14 +1,23 @@
+/* eslint-disable react/prop-types */
 /* eslint-disable no-unused-vars */
-import React from 'react'
+import React, { useState } from 'react'
 import './Navbar.css'
+import './DarkNavbar.css'
 import { Link, NavLink } from "react-router-dom";
-function Navbar() {
-  return (
-    <nav className="navbar navbar-expand-lg ">
 
+
+
+function Navbar({isdark}) {
+
+  // const  [isdark,setisdark] = useState(true);
+
+
+  return (
+    <nav className= { isdark? "navbar navbar-expand-lg navbar-dark bg-dark " : "navbar navbar-expand-lg"  }>
 
       <div className="container-fluid d-flex align-items-center justify-content-between">
-        <a className="navbar-brand cstm-brandName  " href="#">PRADEEP</a>
+        
+        <a className=  "navbar-brand cstm-brandName  " href="#">PRADEEP</a>
 
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
@@ -45,9 +54,6 @@ function Navbar() {
             <a href="https://www.facebook.com/share/1CwXBF6AaS/?mibextid=qi2Omg" title='facebook' target='_blank'>
               <i className="bi bi-facebook "></i>
             </a>
-            {/* <a href="#">
-              <i className="bi bi-instagram "></i>
-            </a> */}
 
           </div>
 

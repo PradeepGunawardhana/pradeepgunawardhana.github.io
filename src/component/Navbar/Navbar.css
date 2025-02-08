@@ -61,7 +61,7 @@ nav{
 
 .social-links a  {
     color: color-mix(in srgb, #444444, transparent 40% ) !important; 
-    padding-left: 10px;
+    padding-left: 20px;
     transition:  0.3s ease-in-out;
     
   }
@@ -71,7 +71,8 @@ nav{
 
   }
   .social-links i{
-    font-size: 18px !important;
+    font-size: 20px !important;
+    
   } 
 
 

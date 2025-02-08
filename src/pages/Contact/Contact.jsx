@@ -1,6 +1,8 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
 import './Contact.css'
+import './DarkContact.css'
+
 function Contact() {
     return (
         <section className='contact section container'>

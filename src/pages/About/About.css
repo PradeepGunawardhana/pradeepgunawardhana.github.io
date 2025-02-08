@@ -75,6 +75,16 @@
     padding-right: 5px;
  
 }
+.soft-skill-name{
+    font-size: 16px;
+}
+
+
+
+
+
+
+
 
 
 
@@ -117,13 +127,11 @@
 
 @media (max-width: 575.98px){
     
-    /* .skill-list{
-
-        align-items: start !important;
-
-    } */
+    .soft-skill-name{
+        font-size: 15px;
+    }
 }
-@media (min-width: 480px) { 
+@media (max-width: 480px) { 
 
     .skill-name{
 
@@ -131,9 +139,12 @@
     
     }
     .correct-mark{
-
         font-size: 18px;
         padding-right: 4px;
      
+    }
+
+    .soft-skill-name{
+        font-size: 13px !important;
     }
 }
