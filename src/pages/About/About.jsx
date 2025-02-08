@@ -79,7 +79,7 @@ function About() {
                 <div className="progress">
 
                   <div
-                    className="progress-bar w-75"
+                    className="progress-bar"
                     role="progressbar"
                     aria-valuenow="50"
                     aria-valuemin="0"
