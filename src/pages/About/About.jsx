@@ -54,10 +54,7 @@ function About() {
                   <span>React js</span>
                   <i className="val">60%</i>
                 </span>
-
-
                 <div className="progress">
-
                   <div
                     className="progress-bar "
                     role="progressbar"
@@ -156,7 +153,7 @@ function About() {
                 <div className="progress">
 
                   <div
-                    className="progress-bar w-75"
+                    className="progress-bar"
                     role="progressbar"
                     aria-valuenow="50"
                     aria-valuemin="0"
@@ -178,7 +175,7 @@ function About() {
                 <div className="progress">
 
                   <div
-                    className="progress-bar w-75"
+                    className="progress-bar "
                     role="progressbar"
                     aria-valuenow="50"
                     aria-valuemin="0"
