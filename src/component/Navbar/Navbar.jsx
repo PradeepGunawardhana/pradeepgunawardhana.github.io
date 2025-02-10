@@ -1,23 +1,32 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable no-unused-vars */
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import './Navbar.css'
 import './DarkNavbar.css'
 import { Link, NavLink } from "react-router-dom";
 
 
 
-function Navbar({isdark}) {
+function Navbar({ isdark, setisdark }) {
 
-  // const  [isdark,setisdark] = useState(true);
+  const [isclicked, setisclicked] = useState(false);
 
+
+
+  useEffect(() => {
+    console.log("User clicked")
+  },[isclicked])
 
   return (
-    <nav className= { isdark? "navbar navbar-expand-lg navbar-dark bg-dark " : "navbar navbar-expand-lg"  }>
+    <nav className={isdark ? "navbar navbar-expand-lg navbar-dark bg-dark " : "navbar navbar-expand-lg"}>
 
       <div className="container-fluid d-flex align-items-center justify-content-between">
-        
-        <a className=  "navbar-brand cstm-brandName  " href="#">PRADEEP</a>
+
+        <a className="navbar-brand cstm-brandName  " href="#" onClick={(e) => {
+          e.preventDefault();
+          setisclicked(!isclicked);
+          setisdark(isclicked);
+        }} >PRADEEP</a>
 
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>

@@ -1,3 +1,4 @@
+/* eslint-disable no-empty */
 /* eslint-disable no-unused-vars */
 
 import './App.css'
@@ -19,18 +20,42 @@ import './App.css'
 
 function App() {
 
-  const  [isdark,setisdark] = useState(true);
+
+  const getusertheme = () => {
+
+    const storedUserTheme = localStorage.getItem('isDark');
+
+    if(storedUserTheme !== null){
+
+      return JSON.parse(storedUserTheme);  //check isdark in local storage
+      
+
+    }else return window.matchMedia("(prefers-color-scheme: dark)").matches;
+    
+  }
+
+
+  const  [isdark,setisdark] = useState(getusertheme);
+
+
   
+
   useEffect(() => {
 
     AOS.init();
+    console.log("is dark in reload page " + isdark);
+   
 
-    if( isdark ){
+    if( isdark){
       document.body.classList.add('dark-mode');
+
+      localStorage.setItem("isDark",true);
+
     }
     else{
       document.body.classList.remove('dark-mode')
-      
+      localStorage.setItem("isDark",false);
+
     }
 
 
@@ -41,7 +66,7 @@ function App() {
   return (
 
     <Router>
-      <Navbar isdark={isdark} />
+      <Navbar isdark={isdark} setisdark={setisdark} />
       <Routes>
      
         <Route path="/about" element={<About   />} />
