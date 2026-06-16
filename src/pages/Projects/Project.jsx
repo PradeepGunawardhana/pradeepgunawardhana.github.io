@@ -15,7 +15,7 @@ function Project() {
             <div className="container">
                 {/* ROW 1: Real-World Client Projects & Complex Systems */}
                 <div className="row" data-aos="fade-up" data-aos-duration="1500" >
-                    
+
                     <div className="col-lg-4 project-card-wrapper mb-sm-5 mb-4">
                         <div className="project-card p-3">
                             <h5>Touristique Lanka Website</h5>
@@ -29,11 +29,6 @@ function Project() {
                                 </p>
                             </div>
                             <div className="d-flex gap-2">
-                                <a href="https://github.com/PradeepGunawardhana/TouristiqueLanka.git">
-                                    <button type="button" className="btn btn-outline-dark">
-                                        <i className="bi bi-github "></i> Repo
-                                    </button>
-                                </a>
                                 <a href="https://touristiquelanka.com/" target="_blank" rel="noreferrer">
                                     <button type="button" className="btn btn-outline-dark">
                                         <i className="bi bi-globe "></i> Live
@@ -83,7 +78,7 @@ function Project() {
 
                 {/* ROW 2: E-Commerce, Portals, & Business Management */}
                 <div className="row mt-md-1 mb-md-5 mt-1 mb-5" data-aos="fade-up" data-aos-duration="1500">
-                    
+
                     <div className="col-lg-4 project-card-wrapper mb-sm-5 mb-1">
                         <div className="project-card p-3">
                             <h5>Sv Fashion E-Commerce Website</h5>
@@ -125,7 +120,7 @@ function Project() {
                             </a>
                         </div>
                     </div>
-                    
+
                     <div className="col-lg-4 project-card-wrapper mb-sm-5 mb-1">
                         <div className="project-card p-3">
                             <h5>Salary Management System</h5>
@@ -147,13 +142,13 @@ function Project() {
                                 </button>
                             </div>
                         </div>
-                    </div> 
-                               
+                    </div>
+
                 </div>
 
                 {/* ROW 3: API Integration & Frontend UI */}
                 <div className="row mt-md-1 mb-md-5 mt-1 mb-5" data-aos="fade-up" data-aos-duration="1500">
-                    
+
                     <div className="col-lg-4 project-card-wrapper mb-sm-5 mb-4">
                         <div className="project-card p-4">
                             <h5>Movie Collection Website</h5>
